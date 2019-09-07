@@ -13,10 +13,12 @@ namespace Проект_на_С_шарп
 			int a;
 			int rez = 1;
 
-			Console.Write("Введите число ");
+			Console.WriteLine("Здравствуйте,вас приветсвует программа возведения числа в степень");
+
+			Console.Write("Введите число: ");
 			a = Convert.ToInt32(Console.ReadLine());
 
-			Console.Write("Введите степень,в которую хотите возвести число ");
+			Console.Write("Введите степень,в которую хотите возвести число: ");
 			int n = Convert.ToInt32(Console.ReadLine());
 
 			for (int i = 1;i <= n;i++)
